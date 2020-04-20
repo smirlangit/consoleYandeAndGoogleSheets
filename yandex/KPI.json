@@ -1,0 +1,53 @@
+[
+    {
+        "platform": "Яндекс kz",
+        "client": "karchershopp",
+        "campaings": [
+            "44420788"
+        ],
+        "paymodel": "CPV",
+        "budget": "56863.83",
+        "dailybudget": null,
+        "currency": "KZT",
+        "allClicks": "7111",
+        "allCost": 524845.35,
+        "allViews": "171386",
+        "yesterdayClicks": "24",
+        "yesterdayCost": 1982,
+        "yesterdayViews": "520"
+    },
+    {
+        "platform": "Яндекс kz",
+        "client": "karchershopp",
+        "campaings": [
+            "44420788"
+        ],
+        "paymodel": "CPC",
+        "budget": "56863.83",
+        "dailybudget": null,
+        "currency": "KZT",
+        "allClicks": "7111",
+        "allCost": 524845.35,
+        "allViews": "171386",
+        "yesterdayClicks": "24",
+        "yesterdayCost": 1982,
+        "yesterdayViews": "520"
+    },
+    {
+        "platform": "Яндекс kz",
+        "client": "karchershopp",
+        "campaings": [
+            "44420788"
+        ],
+        "paymodel": "% от бюджета",
+        "budget": "56863.83",
+        "dailybudget": null,
+        "currency": "KZT",
+        "allClicks": "7111",
+        "allCost": 524845.35,
+        "allViews": "171386",
+        "yesterdayClicks": "24",
+        "yesterdayCost": 1982,
+        "yesterdayViews": "520"
+    }
+]

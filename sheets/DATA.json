@@ -1,0 +1,23 @@
+[
+    {
+        "platform": "Яндекс kz",
+        "client": "karchershopp",
+        "campaings": "44420788",
+        "paymodel": "CPV",
+        "startdata": "03.07.2019"
+    },
+    {
+        "platform": "Яндекс kz",
+        "client": "karchershopp",
+        "campaings": "44420788",
+        "paymodel": "CPC",
+        "startdata": "03.07.2019"
+    },
+    {
+        "platform": "Яндекс kz",
+        "client": "karchershopp",
+        "campaings": "44420788",
+        "paymodel": "% от бюджета",
+        "startdata": "03.07.2019"
+    }
+]

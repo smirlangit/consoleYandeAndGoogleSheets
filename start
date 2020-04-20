@@ -1,0 +1,4 @@
+#/bin/sh
+cd sheets/ && php index.php && cd ..
+cd yandex/ && php index.php && cd ..
+cd sheets/ && php upload.php && cd ..
