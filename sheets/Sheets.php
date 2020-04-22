@@ -1,23 +1,22 @@
 <?php
+namespace Tds\sheets;
+use Tds\sheets\KPISheet;
+use Tds\sheets\UploadKPI;
 
-require __DIR__.'/imports.php';
 
-Class Sheets {
+
+Class Sheets{
     
-    public function extractFromTable() {
+    public function downloadData() {
         $kpiSheet = new KPISheet();
         $data = $kpiSheet->parseData();
-        
-        return $data;
-        
+        $kpiSheet->saveToFile($data, "DATA");
     }
     
-    public function saveResult($data, $filename = "DATA") {
-        $kpiSheet = new KPISheet();
-        $kpiSheet->saveToFile($data);
-        return true;
+    public function uploadData() {
+        $up = new UploadKPI();
+        $up->start();
     }
     
-
-
+    
 }

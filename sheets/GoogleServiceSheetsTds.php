@@ -1,9 +1,14 @@
 <?php
+namespace Tds\sheets;
+use Google_Client;
+use Exception;
+use Google_Service_Sheets;
+
 
 /**
  * Техничекое взаимодействие с таблицей через АПИ
  */
-class GoogleServiceSheets {
+class GoogleServiceSheetsTds {
     
     public function getClient() {
         $client = new Google_Client();

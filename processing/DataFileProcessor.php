@@ -1,8 +1,11 @@
 <?php
+namespace Tds\processing;
+use Tds\yandex\YandexResponce;
+
 
 
 class DataFileProcessor {
-    protected $dataFlePath = "../sheets/DATA.json";
+    protected $dataFlePath = __DIR__."/../sheets/DATA.json";
     
     /**
      * читает json, конвертит в массив
@@ -78,10 +81,6 @@ class DataFileProcessor {
     }
     
     
-
-    
- 
-
 
     public function saveResponce($data, $fileName = "KPI"){
         $fileName .= ".json";

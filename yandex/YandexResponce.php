@@ -1,4 +1,8 @@
 <?php
+namespace Tds\yandex;
+use Tds\yandex\DirectAPI;
+use Tds\yandex\ObjKPI;
+use Tds\yandex\ObjFinance;
 
 Class YandexResponce {
     

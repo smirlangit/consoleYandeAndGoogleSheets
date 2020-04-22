@@ -1,4 +1,11 @@
 <?php
+namespace Tds\sheets;
+use GoogleServiceSheets;
+use Google_Service_Sheets;
+use Google_Service_Sheets_ValueRange;
+//use Tds\Sheets\GoogleServiceSheetsTds;
+use Google_Service_Sheets_BatchUpdateValuesRequest;
+
 
 /**
  * Логическое взаимодействие с таблицей KPI
@@ -10,7 +17,7 @@ class KPISheet {
 
 
     function __construct() {
-       $client = new GoogleServiceSheets();
+       $client = new GoogleServiceSheetsTds();
        $this->client = $client->getClient();
     }
 

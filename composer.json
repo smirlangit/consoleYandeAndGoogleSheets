@@ -1,0 +1,13 @@
+{
+    "require": {
+        "google/apiclient": "^2.0"
+    },
+    
+    "autoload": {
+        "psr-4": {
+            "Tds\\yandex\\": "yandex",
+            "Tds\\sheets\\": "sheets",
+            "Tds\\processing\\": "processing"
+        }
+    }
+}

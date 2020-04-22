@@ -1,12 +1,13 @@
 <?php
-require_once './imports.php';
+namespace Tds\sheets;
+
 
 /**
  * выгружает файл с KPI в таблицу
  */
 class UploadKPI {
     
-    public $filePath = "../yandex/KPI.json";
+    public $filePath = "KPI.json";
 
 
     public function readKPIFile() {
@@ -19,12 +20,12 @@ class UploadKPI {
     
     public function formatForTable($data) {
         
-       $budget; 
-       $currency; 
-       $yesterday_kpi; 
-       $alltime_kpi; 
-       $alltime_cost; 
-       $yesterday_cost; 
+       $budget = null; 
+       $currency = null; 
+       $yesterday_kpi = null; 
+       $alltime_kpi = null; 
+       $alltime_cost = null; 
+       $yesterday_cost = null; 
        
        
        $kpiType = [
@@ -105,7 +106,6 @@ class UploadKPI {
 
 
 
-$up = new UploadKPI();
-$up->start();
+
 
 

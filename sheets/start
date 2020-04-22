@@ -1,2 +1,0 @@
-#/bin/sh
-php $(pwd)/sheets/index.php

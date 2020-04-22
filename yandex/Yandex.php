@@ -1,5 +1,4 @@
 <?php
-namespace Tds\yandex;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -7,16 +6,13 @@ namespace Tds\yandex;
  * and open the template in the editor.
  */
 
-
+namespace Tds\yandex;
 
 /**
- * Description of ObjCampaingnKPI
+ * Description of Yandex
  *
  * @author mirlan
  */
-class ObjCampaingnKPI {
-    public $beforePeriod = null;
-    public $yesterdayPeriod = null;
-    public $dateBefore = null;
-    public $dateYesterday = null;
+class Yandex {
+    //put your code here
 }
